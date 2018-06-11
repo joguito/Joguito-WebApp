@@ -15,18 +15,18 @@ module.exports = function (app) {
                 email: 'devmed01@gmail.com',
                 password: 'password',
                 address: 'blah blah',
-                country: 'Tunisia',
+                country: 'Germany',
                 age: 26,
                 sex: "Male"
             },
             {
-                firstName: 'test',
-                lastName: 'test test',
-                birthdate: '15-04-1989',
-                email: 'tested@success.com',
+                firstName: 'John',
+                lastName: 'Doe',
+                birthdate: '19-08-1982',
+                email: 'john.doe@test.com',
                 password: 'pass',
                 address: 'blah blah',
-                country: 'Tunisia',
+                country: 'USA',
                 age: 26,
                 sex: "Male"
             }], function (err, players) {
