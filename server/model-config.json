@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "ACL": {
+    "dataSource": "joguito_db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "joguito_db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "joguito_db",
+    "public": false
+  },
+  "Player": {
+    "dataSource": "joguito_db",
+    "public": true
+  },
+  "JoguitoAccessToken": {
+    "dataSource": "joguito_db",
+    "public": false
+  }
+}

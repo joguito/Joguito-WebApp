@@ -1,0 +1,12 @@
+{
+  "joguito_db": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "joguito_db",
+    "password": "Joguito2018",
+    "name": "joguito_db",
+    "user": "joguito",
+    "connector": "mysql"
+  }
+}
